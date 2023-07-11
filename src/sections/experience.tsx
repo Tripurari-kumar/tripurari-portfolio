@@ -105,7 +105,7 @@ function Experience() {
               {experiences?.[selected]?.start} -{experiences?.[selected]?.end}
             </p>
             <ul className='exp-details-list'>
-              {experiences?.[selected]?.shortDescription.map(
+              {experiences?.[selected]?.shortDescription?.map(
                 (description, index) => (
                   <li key={index} className='exp-details-list-item'>
                     {description}

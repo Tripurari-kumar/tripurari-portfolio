@@ -30,28 +30,27 @@ function Navbar() {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      console.log(window.scrollY);
       window.scrollY > 100 ? setNavBarVisible(true) : setNavBarVisible(false);
     });
   }, []);
 
   useEffect(() => {
-    const links = document.querySelectorAll('.nav-items-list-item-link');
-    links.forEach((link) => {
-      link.addEventListener('click', () => setResponsiveNavVisible(false));
+    const links = document?.querySelectorAll('.nav-items-list-item-link');
+    links?.forEach((link) => {
+      link?.addEventListener('click', () => setResponsiveNavVisible(false));
     });
-    const nav = document.querySelector('.nav-items');
+    const nav = document?.querySelector('.nav-items');
     nav?.addEventListener('click', (e) => {
       e.stopPropagation();
     });
-    const html = document.querySelector('html');
+    const html = document?.querySelector('html');
     html?.addEventListener('click', (e) => {
       setResponsiveNavVisible(false);
     });
   }, []);
 
   useEffect(() => {
-    const main = document.querySelector('main');
+    const main = document?.querySelector('main');
     if (responsiveNavVisible) {
       main?.classList.add('blur');
     } else {

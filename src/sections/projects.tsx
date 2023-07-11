@@ -77,7 +77,7 @@ function Projects() {
                     <p>{projectDescription}</p>
                   </div>
                   <ul className='project-info-tech-list'>
-                    {projectTech.map((tech) => (
+                    {projectTech?.map((tech) => (
                       <li className='project-info-tech-list-item' key={tech}>
                         {tech}
                       </li>
@@ -86,7 +86,7 @@ function Projects() {
                   <ul className='project-info-links'>
                     <li className='project-info-links-item'>
                       <Link
-                        href={projectExternalLinks.github}
+                        href={projectExternalLinks?.github}
                         className='project-info-links-item-link'
                         target='_blank'
                       >
@@ -95,7 +95,7 @@ function Projects() {
                     </li>
                     <li className='project-info-links-item'>
                       <Link
-                        href={projectExternalLinks.externalLink}
+                        href={projectExternalLinks?.externalLink}
                         className='project-info-links-item-link'
                       >
                         <FiExternalLink />

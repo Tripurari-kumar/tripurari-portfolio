@@ -49,7 +49,7 @@ function SocialIcons() {
       }}
     >
       <ul className='social-icons-list'>
-        {socialLinks.map(({ name, icon, link }) => (
+        {socialLinks?.map(({ name, icon, link }) => (
           <li key={name} title={name} className='social-icons-list-item'>
             <Link
               href={link}
