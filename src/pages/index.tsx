@@ -26,21 +26,21 @@ function Index() {
         <title>Tripurari Kumar</title>
         <Link rel='shortcut-icon' href={'/'} />
       </Head>
-      {showContent && (
-        <>
-          <Navbar />
-          <SocialIcons />
-          <Email />
-          <main>
-            <Hero />
-            <About />
-            <Experience />
-            <Projects />
-            <Contact />
-          </main>
-        </>
-      )}
-      <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />
+      {/* {showContent && ( */}
+      <>
+        <Navbar />
+        <SocialIcons />
+        <Email />
+        <main>
+          <Hero />
+          <About />
+          <Experience />
+          <Projects />
+          <Contact />
+        </main>
+      </>
+      {/* )} */}
+      {/* <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} /> */}
     </div>
   );
 }
