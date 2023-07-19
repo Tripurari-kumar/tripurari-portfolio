@@ -22,10 +22,10 @@ function Index() {
 
   return (
     <div className='app'>
-      <Head>
+      <div>
         <title>Tripurari Kumar</title>
         <Link rel='shortcut-icon' href={'/'} />
-      </Head>
+      </div>
       {showContent && (
         <>
           <Navbar />
