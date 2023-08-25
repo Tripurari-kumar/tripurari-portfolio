@@ -27,7 +27,6 @@ function Navbar() {
       link: '/#contact',
     },
   ];
-
   useEffect(() => {
     window.addEventListener('scroll', () => {
       window.scrollY > 100 ? setNavBarVisible(true) : setNavBarVisible(false);
@@ -133,7 +132,7 @@ function Navbar() {
           >
             <Button
               text={'Resume'}
-              link={'https://tripurari-portfolio.vercel.app/Resume.pdf'}
+              link={`${window?.location?.href}/Resume.pdf`}
             />
           </motion.div>
         </div>
