@@ -60,7 +60,7 @@ function Projects() {
         'Material UI',
       ],
       projectExternalLinks: {
-        github: 'https://github.com/ed-roh/mern-social-media',
+        github: 'https://github.com/Tripurari-kumar/social-verse',
         externalLink: '',
       },
     },
