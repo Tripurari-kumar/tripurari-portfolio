@@ -18,6 +18,7 @@ function Projects() {
         'Node.js',
         'Express',
         'MongoDB',
+        'REST',
         'Material UI',
       ],
       projectExternalLinks: {
@@ -41,8 +42,26 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: 'https://github.com/Tripurari-kumar/tripurari-portfolio',
-        externalLink:
-          'https://tripurari-portfolio-fbrupvgkd-tripurari-kumar.vercel.app/',
+        externalLink: 'https://tripurari-portfolio.vercel.app',
+      },
+    },
+    {
+      image: '/project_03.png',
+      projectName: 'Social Media Application',
+      projectLink: '',
+      projectDescription:
+        'A feature-rich social media platform with authentication, personalized profiles, interactive liking and disliking functionality, and the ability to establish connections with friends within the application. Built using React, Node.js, MongoDB, and Redux Toolkit, the application boasts full responsiveness and a sleek interface designed with (MUI).',
+      projectTech: [
+        'React',
+        'NodeJs',
+        'MongoDB',
+        'Redux Toolkit',
+        'REST',
+        'Material UI',
+      ],
+      projectExternalLinks: {
+        github: 'https://github.com/ed-roh/mern-social-media',
+        externalLink: '',
       },
     },
   ];
@@ -113,14 +132,16 @@ function Projects() {
                         <FiGithub />
                       </Link>
                     </li>
-                    <li className='project-info-links-item'>
-                      <Link
-                        href={projectExternalLinks?.externalLink}
-                        className='project-info-links-item-link'
-                      >
-                        <FiExternalLink />
-                      </Link>
-                    </li>
+                    {projectExternalLinks?.externalLink && (
+                      <li className='project-info-links-item'>
+                        <Link
+                          href={projectExternalLinks?.externalLink}
+                          className='project-info-links-item-link'
+                        >
+                          <FiExternalLink />
+                        </Link>
+                      </li>
+                    )}
                   </ul>
                 </div>
               </motion.div>
