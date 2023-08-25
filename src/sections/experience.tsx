@@ -31,9 +31,10 @@ function Experience() {
       start: 'July 2022',
       end: 'Oct 2022',
       shortDescription: [
-        'Responsible for integrating REST and GrapghQL APIs with UI,for dynamic form operations.',
-        'Optimised UI performance for Faster page loads',
-        'Responsible for team codereviews.',
+        'Spearheaded integration of REST and GraphQL APIs with the application user interface, ensuring seamless communication between backend services and dynamic form operations.',
+        'Optimized UI performance to achieve lightning-fast page load times, enhancing user experience and engagement with the Lennar Land application.',
+        'Played a pivotal role in conducting team code reviews, upholding code quality standards, and ensuring adherence to best practices within the development team.',
+        'Mentored junior developers, providing guidance on coding standards, best practices, and integration techniques, which contributed to a more cohesive and skilled development team',
       ],
     },
     {
@@ -42,9 +43,9 @@ function Experience() {
       start: 'Aug 2021',
       end: 'July 2022',
       shortDescription: [
-        'Responsible for developing featuread components for HomePage, product Details Page, Cart and Checkout Page and Payment Gateway.',
-        'Worked on NextJs for Server-Side Rendering',
-        'Helping prioritisation of features, triaging bugs, planning and fixing those',
+        'Developed featured components for key sections: HomePage, Product Details Page, Cart, Checkout Page, and integrated Payment Gateway.',
+        'Utilized Next.js for Server-Side Rendering, enhancing performance and user experience.',
+        'Actively participated in team discussions to enhance application functionality and design.',
       ],
     },
   ];

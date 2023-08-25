@@ -25,6 +25,26 @@ function Projects() {
         externalLink: '',
       },
     },
+    {
+      image: '/project_02.png',
+      projectName: 'My Porfolio',
+      projectLink: '',
+      projectDescription:
+        'A Dynamic Next.js Application with Framer Motion Animations Discover the power of seamless web experiences and captivating animations with MyPortfolio, a cutting-edge web application meticulously crafted using Next.js and enhanced with the fluid motion of Framer Motion.',
+      projectTech: [
+        'NextJs',
+        'React',
+        'Typescript',
+        'SCSS',
+        'Framer Motion',
+        'Vercel',
+      ],
+      projectExternalLinks: {
+        github: 'https://github.com/Tripurari-kumar/tripurari-portfolio',
+        externalLink:
+          'https://tripurari-portfolio-fbrupvgkd-tripurari-kumar.vercel.app/',
+      },
+    },
   ];
   return (
     <div className='projects' id='work'>
