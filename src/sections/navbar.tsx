@@ -133,9 +133,7 @@ function Navbar() {
           >
             <Button
               text={'Resume'}
-              link={
-                'https://tripurari-portfolio-fbrupvgkd-tripurari-kumar.vercel.app/Resume.pdf'
-              }
+              link={'https://tripurari-portfolio.vercel.app/Resume.pdf'}
             />
           </motion.div>
         </div>
