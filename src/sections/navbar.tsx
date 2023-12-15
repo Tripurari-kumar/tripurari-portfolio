@@ -132,7 +132,7 @@ function Navbar() {
           >
             <Button
               text={'Resume'}
-              link={`${window?.location?.href}/resume.pdf`}
+              link={`${window?.location?.origin}/resume.pdf`}
             />
           </motion.div>
         </div>

@@ -8,7 +8,7 @@ function Projects() {
   const projectsData = [
     {
       image: '/project_01.png',
-      projectName: 'Realtime Chat App',
+      projectName: 'WECHAT (Realtime Chat App)',
       projectLink: '',
       projectDescription:
         'This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It has key features like User Authentication, Profile Setup, Real-Time Communication and Logout Functionality. It uses advanced JavaScript concepts like debouncing and is optimized for React.',
@@ -23,6 +23,20 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: 'https://github.com/Tripurari-kumar/My-messenger',
+        externalLink: '',
+      },
+    },
+    {
+      image: '/project_04.png',
+      projectName: 'VIRTUAOMEET (Real Time Video Conferencing App)',
+      projectLink: '',
+      projectDescription: `Utilized WebRTC for establishing media streams, providing efficient video and audio communication.
+          Designed and integrated a responsive player for rendering high-quality media streams during sessions.
+        Established signaling mechanisms for WebRTC connection.
+          Engineered a user-friendly lobby system and an easy-to-use interface for video calls.`,
+      projectTech: ['NextJS', 'WebRTC', 'Sockets', 'TailWind CSS'],
+      projectExternalLinks: {
+        github: 'https://github.com/Tripurari-kumar/We-meet',
         externalLink: '',
       },
     },
