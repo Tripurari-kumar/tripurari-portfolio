@@ -28,9 +28,9 @@ function Projects() {
     },
     {
       image: '/project_04.png',
-      projectName: 'VIRTUAOMEET (Real Time Video Conferencing App)',
+      projectName: `VIRTUAOMEET`,
       projectLink: '',
-      projectDescription: `Utilized WebRTC for establishing media streams, providing efficient video and audio communication.
+      projectDescription: `A Real Time Video Conferencing Application. In which,  I Utilized WebRTC for establishing media streams, providing efficient video and audio communication.
           Designed and integrated a responsive player for rendering high-quality media streams during sessions.
         Established signaling mechanisms for WebRTC connection.
           Engineered a user-friendly lobby system and an easy-to-use interface for video calls.`,
