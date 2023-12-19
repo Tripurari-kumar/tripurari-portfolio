@@ -25,6 +25,7 @@ function Experience() {
         'Enabled seamless creation, tracking, and management of deals and opportunities in specific US divisions.',
         'Did Migration from Redux Toolkit to Redux ToolKit Query for efficient and optimized data fetching from REST APIs , improving application performance and reducing unnecessary network requests.',
         'Implemented authentication using MicroSoft Authentication Library (MSAL) and OKTA , ensuring secure access control and user authentication.',
+        'Implemented Code splitting and lazy loading techniques to optimize the initial page load, achieving a 20 % reduction in landing page load time.',
         'Coordinated in feature prioritization, triaging bugs, and played a key role in debugging and resolving identified issues',
         'Utilized Jest for unit test cases and increased code coverage from completely scratch to 86 % and maintained it consistently above the recommended 85 %, ensuring a robust and reliable codebase.',
       ],
@@ -36,7 +37,7 @@ function Experience() {
       end: 'Oct 2022',
       shortDescription: [
         'Integrated REST and GraphQL APIs into UI for dynamic form operations in Lennar Homes.',
-        'Upgraded UI performance by optimizing critical rendering paths, resulting in faster page loads and 25 % reduction in loading time.',
+        'Upgraded UI performance by optimizing Critical Rendering Path , resulting in faster page loads and 25 % reduction in loading time.',
         'Led team code reviews to maintain code quality and adherence to standards.',
         'Developed Reusable components and meticulously documented the code for enhancing accessibility and integration across the entire project.',
       ],
