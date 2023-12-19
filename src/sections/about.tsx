@@ -72,11 +72,16 @@ function About() {
             <li className='about-grid-info-list-item'>Redux Toolkit</li>
             <li className='about-grid-info-list-item'>Next.js</li>
             <li className='about-grid-info-list-item'>Node.js</li>
-            <li className='about-grid-info-list-item'>HTML</li>
-            <li className='about-grid-info-list-item'>CSS</li>
+            <li className='about-grid-info-list-item'>HTML5</li>
+            <li className='about-grid-info-list-item'>CSS3</li>
             <li className='about-grid-info-list-item'>SASS</li>
+            <li className='about-grid-info-list-item'>Webpack</li>
+            <li className='about-grid-info-list-item'>Material UI</li>
+            <li className='about-grid-info-list-item'>REST/GRAPHQL</li>
+            <li className='about-grid-info-list-item'>OKTA</li>
             <li className='about-grid-info-list-item'>MongoDb</li>
-            <li className='about-grid-info-list-item'>Socket.io</li>
+            <li className='about-grid-info-list-item'>AZURE</li>
+            <li className='about-grid-info-list-item'>Sockets</li>
             <li className='about-grid-info-list-item'>DSA</li>
             <li className='about-grid-info-list-item'>OOPS</li>
           </ul>
