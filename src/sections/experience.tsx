@@ -20,9 +20,13 @@ function Experience() {
       start: 'Nov 2022',
       end: 'Present',
       shortDescription: [
-        'Worked on GoogleMaps SDK to integrate Map functionality into a web application such as custom markers, clustering functionality to efficiently group nearby markers, geolocation services to track and display the user’s current location and bouncy animations enhancing the visual appeal and user interaction of the application.',
-        'Utilized RTK Query for efficient and optimized data fetching from REST APIs, improving application performance and reducing unnecessary network requests.',
-        'Implemented authentication using MSAL and Okta, ensuring secure access control and user authentication.',
+        'Developed a real estate management Application of Lennar, a Leading real state home construction company in US.',
+        'Utilized Google Maps SDK for web app: integrated maps with custom markers, clustering for efficiency, and lively animations for an enhanced visual experience.',
+        'Enabled seamless creation, tracking, and management of deals and opportunities in specific US divisions.',
+        'Did Migration from Redux Toolkit to Redux ToolKit Query for efficient and optimized data fetching from REST APIs , improving application performance and reducing unnecessary network requests.',
+        'Implemented authentication using MicroSoft Authentication Library (MSAL) and OKTA , ensuring secure access control and user authentication.',
+        'Coordinated in feature prioritization, triaging bugs, and played a key role in debugging and resolving identified issues',
+        'Utilized Jest for unit test cases and increased code coverage from completely scratch to 86 % and maintained it consistently above the recommended 85 %, ensuring a robust and reliable codebase.',
       ],
     },
     {
@@ -31,10 +35,10 @@ function Experience() {
       start: 'July 2022',
       end: 'Oct 2022',
       shortDescription: [
-        'Spearheaded integration of REST and GraphQL APIs with the application user interface, ensuring seamless communication between backend services and dynamic form operations.',
-        'Optimized UI performance to achieve lightning-fast page load times, enhancing user experience and engagement with the Lennar Land application.',
-        'Played a pivotal role in conducting team code reviews, upholding code quality standards, and ensuring adherence to best practices within the development team.',
-        'Mentored junior developers, providing guidance on coding standards, best practices, and integration techniques, which contributed to a more cohesive and skilled development team',
+        'Integrated REST and GraphQL APIs into UI for dynamic form operations in Lennar Homes.',
+        'Upgraded UI performance by optimizing critical rendering paths, resulting in faster page loads and 25 % reduction in loading time.',
+        'Led team code reviews to maintain code quality and adherence to standards.',
+        'Developed Reusable components and meticulously documented the code for enhancing accessibility and integration across the entire project.',
       ],
     },
     {
@@ -43,9 +47,13 @@ function Experience() {
       start: 'Aug 2021',
       end: 'July 2022',
       shortDescription: [
-        'Developed featured components for key sections: HomePage, Product Details Page, Cart, Checkout Page, and integrated Payment Gateway.',
-        'Utilized Next.js for Server-Side Rendering, enhancing performance and user experience.',
-        'Actively participated in team discussions to enhance application functionality and design.',
+        'Collaborated as a dedicated developer within a dynamic team to develop a fully responsive e-commerce platform tailored for Amway Taiwan, catering to the preferences and needs of Taiwanese consumers in health, beauty, and home care products.',
+        'Developed featured-rich components completely from scratch for key sections such as HomePage, Product Details Page, Cart and Checkout Page',
+        'Played a key role in Seamless Payment Gateway integration for secure and convenient transactions.',
+        'Utilized NextJs for Server Side Rendering for enhancing performance and user experience.',
+        'Implemented and collaborated on a Microfrontend architecture, leveraging CodeArtifact, to enhance modularity and scalability',
+        'Designed a NodeJs based BFF (Backend For Frontend) architecture to optimize communication and ensure synchronization between the Frontend and Backend of an application.',
+        'Completely revamped the user interface, resulting in total of 3.14 million monthly visits, proving my expertise in enhancing user experiences.',
       ],
     },
   ];
