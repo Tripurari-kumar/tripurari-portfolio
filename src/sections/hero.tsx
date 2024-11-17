@@ -55,12 +55,8 @@ function Hero() {
         I&apos;m a software engineer with expertise in creating top-notch
         digital experiences. My current focus is on developing products that are
         accessible and centered around user needs, as part of the team at&nbsp;
-        <Link
-          href={'https://www.mindstix.com/'}
-          target='_blank'
-          className='link'
-        >
-          Mindstix Software Labs.
+        <Link href={'https://juspay.io/in'} target='_blank' className='link'>
+          JUSPAY.
         </Link>
       </motion.p>
     </div>

@@ -13,12 +13,25 @@ function Experience() {
     transformSelected();
   }, [selected]);
 
-  const experiences = [
+  const juspayExperience = {
+    name: 'Data and Dashbords Team',
+    role: 'Software Developer',
+    start: 'Sept 2024',
+    end: 'Present',
+    shortDescription: [
+      'As part of the development team at Juspay, I led the creation and ongoing enhancement of a highly scalable web dashboard built with Rescript and React.',
+      'Spearheaded the end-to-end development of critical dashboard modules from scratch, enhancing the user experience for global merchants.',
+      'Developed two comprehensive modules for the Merchant Dashboard, which supports leading financial institutions and global organizations such as HDFC, HSBC, and others, enabling seamless payment operations and insightful data management.',
+      `This work directly contributed to Juspay's mission of delivering superior user experiences, optimizing payment operations, and driving higher conversion rates for merchants worldwide`,
+    ],
+  };
+
+  const mindstixExperiences = [
     {
       name: 'Lennar Homes - Green Folder Experience',
       role: 'Software Developer',
       start: 'Nov 2022',
-      end: 'Present',
+      end: 'Aug 2024',
       shortDescription: [
         'Developed a real estate management Application of Lennar, a Leading real state home construction company in US.',
         'Utilized Google Maps SDK for web app: integrated maps with custom markers, clustering for efficiency, and lively animations for an enhanced visual experience.',
@@ -74,6 +87,41 @@ function Experience() {
       <div className='title'>
         <h2>
           A Comprehensive Overview of my Contributions to Various Projects at
+          <br></br>
+          <Link href={'https://juspay.io/in'} target='_blank' className='link'>
+            @JUSPAY
+          </Link>
+        </h2>
+      </div>
+      <div className='singleContainer'>
+        <div className='exp-details'>
+          <div className='exp-details-position'>
+            <h3>
+              <span>{juspayExperience?.role}</span>
+              <span className='exp-details-position-company'>
+                &nbsp;&nbsp;
+                {juspayExperience?.name}
+              </span>
+            </h3>
+            <p className='exp-details-range'>
+              {juspayExperience?.start} -{juspayExperience?.end}
+            </p>
+            <ul className='exp-details-list'>
+              {juspayExperience?.shortDescription?.map((description, index) => (
+                <li key={index} className='exp-details-list-item'>
+                  {description}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <div className='title'>
+        <h2>
+          A Comprehensive Overview of my Contributions to Various Projects at
           <Link
             href={'https://www.mindstix.com/'}
             target='_blank'
@@ -86,7 +134,7 @@ function Experience() {
       <div className='container'>
         <ul className='exp-slider'>
           <div className='underline'></div>
-          {experiences.map((experience, index) => {
+          {mindstixExperiences.map((experience, index) => {
             return (
               <li
                 key={index}
@@ -105,17 +153,18 @@ function Experience() {
         <div className='exp-details'>
           <div className='exp-details-position'>
             <h3>
-              <span>{experiences?.[selected]?.role}</span>
+              <span>{mindstixExperiences?.[selected]?.role}</span>
               <span className='exp-details-position-company'>
                 &nbsp;&nbsp;
-                {experiences?.[selected]?.name}
+                {mindstixExperiences?.[selected]?.name}
               </span>
             </h3>
             <p className='exp-details-range'>
-              {experiences?.[selected]?.start} -{experiences?.[selected]?.end}
+              {mindstixExperiences?.[selected]?.start} -
+              {mindstixExperiences?.[selected]?.end}
             </p>
             <ul className='exp-details-list'>
-              {experiences?.[selected]?.shortDescription?.map(
+              {mindstixExperiences?.[selected]?.shortDescription?.map(
                 (description, index) => (
                   <li key={index} className='exp-details-list-item'>
                     {description}
