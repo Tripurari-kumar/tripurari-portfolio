@@ -46,11 +46,11 @@ function About() {
             high-quality solutions that delight our clients and exceed their
             expectations at{' '}
             <Link
-              href={'https://www.mindstix.com/'}
+              href={'https://juspay.io/in'}
               target='_blank'
               className='link'
             >
-              Mindstix Software Labs.
+              JUSPAY
             </Link>
           </p>
           <p className='about-grid-info-text'>
@@ -69,6 +69,7 @@ function About() {
             <li className='about-grid-info-list-item'>JavaScript</li>
             <li className='about-grid-info-list-item'>ReactJs</li>
             <li className='about-grid-info-list-item'>Typescript</li>
+            <li className='about-grid-info-list-item'>ReScript</li>
             <li className='about-grid-info-list-item'>Redux Toolkit</li>
             <li className='about-grid-info-list-item'>Next.js</li>
             <li className='about-grid-info-list-item'>Node.js</li>
@@ -78,10 +79,10 @@ function About() {
             <li className='about-grid-info-list-item'>Webpack</li>
             <li className='about-grid-info-list-item'>Material UI</li>
             <li className='about-grid-info-list-item'>REST/GRAPHQL</li>
-            <li className='about-grid-info-list-item'>OKTA</li>
+            <li className='about-grid-info-list-item'>MYSQL</li>
+            <li className='about-grid-info-list-item'>HASHKELL</li>
             <li className='about-grid-info-list-item'>MongoDb</li>
             <li className='about-grid-info-list-item'>AZURE</li>
-            <li className='about-grid-info-list-item'>Sockets</li>
             <li className='about-grid-info-list-item'>DSA</li>
             <li className='about-grid-info-list-item'>OOPS</li>
           </ul>
