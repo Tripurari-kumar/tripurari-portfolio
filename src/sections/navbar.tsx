@@ -130,10 +130,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button
-              text={'Resume'}
-              link={`${window?.location?.origin}/resume.pdf`}
-            />
+            <Button text={'Resume'} link={`${window?.location?.origin}`} />
           </motion.div>
         </div>
       </div>
